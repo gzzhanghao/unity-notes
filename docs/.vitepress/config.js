@@ -5,7 +5,6 @@ export default {
   title: 'Jason\'s Unity Notes',
   description: '个人学习 unity 时记录的一些笔记。',
   base: '/unity-notes/',
-  lastUpdated: true,
   themeConfig: {
     sidebar: getSidebar(path.resolve('docs')),
   },
