@@ -13,7 +13,7 @@
 
 ## Instantiate
 
-个人理解 Instantiate 其实更应该叫做 Clone，其作用相当于前端中的 `node.cloneNode(true)`。
+个人理解 Instantiate 其实更应该叫做 Clone，其作用相当于前端中的 `el.cloneNode(true)`。
 
 ## GameObject
 
