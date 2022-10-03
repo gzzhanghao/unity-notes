@@ -28,5 +28,5 @@ function getSidebar(base) {
 }
 
 function normalizeMenuItemName(fileName) {
-  return fileName.replace(/(^|-)\w/g, match => match.slice(-1).toUpperCase());
+  return fileName.replace(/(^|-)(\w)/g, (_match, pre, char) => `${pre ? ' ' : ''}${char.toUpperCase()}`);
 }
