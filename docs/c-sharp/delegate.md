@@ -1,6 +1,6 @@
 # Delegate
 
-> See: https://www.youtube.com/watch?v=3ZfwqWl-YI0
+> See: [What are Delegates? (C# Basics, Lambda, Action, Func) (Code Monkey, 2020)](https://www.youtube.com/watch?v=3ZfwqWl-YI0)
 
 相当于 C 中的函数指针，用于实现事件机制。
 
