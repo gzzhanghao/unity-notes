@@ -1,4 +1,10 @@
-# Declare
+# Delegate
+
+> See: https://www.youtube.com/watch?v=3ZfwqWl-YI0
+
+相当于 C 中的函数指针，用于实现事件机制。
+
+## Declare
 
 __Declare with `delegate` keyword__
 
@@ -27,6 +33,8 @@ private Action<int, float> testIntFloatAction;
 __Declare with `Func`__
 
 ```csharp
+using System;
+
 // () => bool;
 private Func<bool> testFunc;
 
@@ -34,7 +42,7 @@ private Func<bool> testFunc;
 private Func<int, bool> testIntBoolFunc;
 ```
 
-# Assigning
+## Assigning
 
 __Assinging delegate__
 
@@ -68,7 +76,7 @@ delegateFunction += MyDelegateFunction;
 delegateFunction -= MyDelegateFunction;
 ```
 
-# Invoke
+## Invoke
 
 ```csharp
 var result = testBoolDelegateFunction(5);
