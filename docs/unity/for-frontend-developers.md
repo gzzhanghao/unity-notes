@@ -1,6 +1,6 @@
-# 面向前端开发的 unity 开发指引
+# 面向前端开发者的 unity 开发指引
 
-前端开发在刚接触 unity 时很容易把其中的 GameObject、Component 等概念和 react 的 JSX、VDom 弄混。但实际上 unity 并没有与 JSX 相对应的概念。
+前端开发者在刚接触 unity 时很容易把其中的 GameObject、Component 等概念和 react 的 JSX、VDom 弄混。但实际上 unity 并没有与 JSX 相对应的概念。
 
 让我们换个思路，把 Unity 的 Editor 看作 DevTools 而非代码编辑器。同时把 Hierarchy 上的节点都看作是 Element 而非 JSX。基于这个思路我们可以对 unity 的概念做一些简单映射：
 
